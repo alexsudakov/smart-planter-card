@@ -24,7 +24,7 @@ Custom Lovelace card for Home Assistant to visualize a smart flower pot’s stat
 
 ## 📦 Installation
 
-1. Copy `smart-planter-card.js` and images to your Home Assistant `/config/www/` folder.
+1. Copy `smart-planter-card.js` and images to your Home Assistant `/config/www/ivy` folder.
 2. Add the card to your resources:
 
 ```yaml
@@ -49,33 +49,37 @@ entities:
   water_level: sensor.smart_planter_water_level
 interval: 15000
 image_map:
-  Good: /local/images/Good.png
-  Dehydrated: /local/images/water_dehydrated.png
-  Thirsty: /local/images/water_thirsty.png
-  Drinking: /local/images/water_drinking.png
-  Absorbing from soil: /local/images/water_absorbing_soil.png
-  Hot: /local/images/hot.png
-  Cold: /local/images/cold.png
-  Too Much: /local/images/light_toomuch.png
-  Insufficient: /local/images/light_insufficient.png
-  Charging: /local/images/charging.png
-  Low Power: /local/images/low_power.png
-  Unavailable: /local/images/no_connection.png
+  Charging: /local/ivy/charging_new.png
+  Cold: /local/ivy/cold_new.png
+  Good: /local/ivy/good_new.png
+  Hot: /local/ivy/hot_new.png
+  Too Much: /local/ivy/light_toomuch_new.png
+  Exceptional: /local/ivy/light_exceptional_new.png
+  Acceptable: /local/ivy/light_ok_new.png
+  Insufficient: /local/ivy/light_insufficient_new.png
+  OK: /local/ivy/light_good_new.png
+  Low Power: /local/ivy/low_power_new.png
+  Unavailable: /local/ivy/no_connection_new.png
+  Absorbing from soil: /local/ivy/water_absorbing_soil_new.png
+  Dehydrated: /local/ivy/water_dehydrated_new.png
+  Drinking: /local/ivy/water_drinking_new.png
+  Thirsty: /local/ivy/water_thirsty_new.png
+  Too Much Water: /local/ivy/water_too_much_new.png
 
 Status Image map
 
 | Status                | Image                             |
 | --------------------- | --------------------------------- |
-| `Good`                | `images/Good.png`                 |
-| `Dehydrated`          | `images/water_dehydrated.png`     |
-| `Thirsty`             | `images/water_thirsty.png`        |
-| `Drinking`            | `images/water_drinking.png`       |
-| `Absorbing from soil` | `images/water_absorbing_soil.png` |
-| `Hot`                 | `images/hot.png`                  |
-| `Cold`                | `images/cold.png`                 |
-| `Too Much`            | `images/light_toomuch.png`        |
-| `Insufficient`        | `images/light_insufficient.png`   |
-| `Charging`            | `images/charging.png`             |
-| `Low Power`           | `images/low_power.png`            |
-| `Unavailable`         | `images/no_connection.png`        |
+| `Good`                | `ivi/Good.png`                 |
+| `Dehydrated`          | `ivi/water_dehydrated.png`     |
+| `Thirsty`             | `ivi/water_thirsty.png`        |
+| `Drinking`            | `ivi/water_drinking.png`       |
+| `Absorbing from soil` | `ivi/water_absorbing_soil.png` |
+| `Hot`                 | `ivi/hot.png`                  |
+| `Cold`                | `ivi/cold.png`                 |
+| `Too Much`            | `ivi/light_toomuch.png`        |
+| `Insufficient`        | `ivi/light_insufficient.png`   |
+| `Charging`            | `ivi/charging.png`             |
+| `Low Power`           | `ivi/low_power.png`            |
+| `Unavailable`         | `ivi/no_connection.png`        |
 
