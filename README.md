@@ -23,7 +23,7 @@ Custom Lovelace card for Home Assistant to visualize a smart flower pot’s stat
 
 ## 📦 Installation
 
-1. Copy `smart-planter-card.js` to your Home Assistant `/config/www/` folder.
+1. Copy `smart-planter-card.js` and images to your Home Assistant `/config/www/` folder.
 2. Add the card to your resources:
 
 ```yaml
