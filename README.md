@@ -3,6 +3,7 @@
 Custom Lovelace card for Home Assistant to visualize a smart flower pot’s status using expressive images and real-time sensor values.
 
 ![preview](./images/Good.png)
+<img width="486" height="619" alt="image" src="https://github.com/user-attachments/assets/962b2e39-0e36-4b8c-9d03-64eca7be9859" />
 
 ---
 
